@@ -1,0 +1,58 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+#homeArea h3,
+p,
+button {
+    display: block;
+    cursor: pointer;
+}
+
+.startingBox {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 100px;
+    border-radius: 40px;
+    background-color: lightblue;
+}
+
+.startingBox h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.startingBox .button {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.button {
+    padding: 16px 47px;
+    background-color: rgb(0, 0, 127);
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: rgb(35, 35, 203);
+}

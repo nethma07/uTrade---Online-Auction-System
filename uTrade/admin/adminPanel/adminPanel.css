@@ -1,0 +1,84 @@
+
+*{
+    margin : 0 ;
+    padding : 0 ;
+}
+
+
+body{
+    background : url( background.jpg);
+}
+
+.main-text {
+    text-align : center ;
+    padding-top : 170px ; 
+    font-family: 'Oswald', sans-serif;
+    color : #aae2f3 ;
+    font-size : 1em ;
+}
+
+.main-text h1 {
+    font-family: 'Beau Rivage', cursive;
+    color : #f0f7fc ;
+    font-size : 3em ;
+}
+
+.main-text p{
+    color: white;
+    font-size: 1.2em;
+}
+
+
+.logo {
+    color : white ;
+    font-family: 'times new roman';
+    font-weight: 300;
+    font-size: 2.5em;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+
+}
+
+
+
+/* Side navigation */
+
+#sideNavigation {
+    width : 250px;
+    height : 100vh;
+    position : fixed;
+    right : -250px;
+    top : 0;
+    background: #03045E;
+    transition: 0.5s;
+}
+
+nav ul li {
+    list-style: none;
+    margin : 50px 20px;
+}
+
+nav ul li a {
+    text-decoration : none;
+    color : white;
+}
+
+#menuButton {
+    width : 50px ;
+    height : 50px ;
+    text-align: center;
+    position: fixed;
+    top : 20px;
+    right : 30px;
+    background : #9BF6FF ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#menuButton img{
+    width:30px;
+    height:30px;
+    margin-top: 10px;
+}
+

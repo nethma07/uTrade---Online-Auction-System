@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.5),#0096C7), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.button {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

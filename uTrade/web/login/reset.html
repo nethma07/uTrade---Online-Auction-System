@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Password Reset</title>
+   
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function togglePasswordVisibility() {
+            var passwordInput = document.getElementById("passwordInput");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+    </script>
+    <script>
+        function togglePasswordVisibility2() {
+            var passwordInput = document.getElementById("passwordInput2");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <header>
+    <!-- <section id="header">
+    <div class="navbar1">
+        <div class="logo">
+            
+            <img src="../logo_1.png" alt="Logo" width="30%">
+        </div>
+        <div class="login-button">
+            <a href="#">LOGIN</a>
+        </div>
+        <div class="profile-icon">
+            <a href="#"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="cart">
+            <a href="#"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    
+    <div class="navbar">
+        <ul>
+            <li><a href="../HomePage/HomePage.php">HOME</a></li>
+                <li><a href="../Category/category.php">CATEGORY</a></li>
+                <li><a href="../sellerItem\sellerItem.php">SELL</a></li>
+                <li><a href="../Bidding/update.php">BID</a></li>
+                <li><a href="../aboutus/about.php">ABOUT US</a></li>
+                <li><a href="../contactus/contactus.php">CONTACT US</a></li>
+        </ul>
+    </div>
+</section> -->
+</header>
+
+    <div class="loginbox">
+        <img src="" class="avatar">
+        <img src ="image/user.jpg" class="user">
+        <h1>Reset Password</h1>
+        <form action="password.reset.php" method="POST">
+
+           <input type="text" name="username"  placeholder="Your username" style="width: 100%; margin-bottom: 20px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);">
+
+
+            <input type="password" name="password1" id="passwordInput" placeholder="Type New Password" style="width: 100%; margin-bottom: 20px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);">
+           
+
+            <input type="password" name="password2" id="passwordInput2" placeholder="Confirm New Password" style="width: 100%; margin-bottom: 20px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);">
+            
+
+            <input type="submit" name="submit" value="Login" style="width: 100%; margin-bottom: 20px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);">
+        </form>
+    </div>
+
+   
+    <!-- <section class="footer">
+        <div class="column">
+        <div class="img">
+            <img src="../loogo_2.png" alt="Logo">
+        </div>
+        <div class="fot_intro">
+            <p>
+                uTrade is an e-commerce side that offers a wide range of products, deals and discounts, customer support, and user accounts. it aims to provides a seamless shopping experience for its customers.
+            </p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="menu">
+            <h1>
+                Menu
+            </h1>
+            <p><a href="">Home</a></p>
+            <p><a href="">Find an Item</a></p> 
+            <p><a href="">Contact Us</a></p>
+            <p><a href="">About Us</a></p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="subcol">
+            <h1>
+                Contact Us
+            </h1>
+            <p>Tel: 123-245-7890 </p>
+            <p>Email: info@uTrade.lk</p>
+            <p>No.205, Silver Lane, Colombo </p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="subcol">
+            <h1>
+                Social
+            </h1>
+            <p><i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;&nbsp;Facebook</p>
+            <p><i class="fa fa-twitter-square" aria-hidden="true"></i>&nbsp;&nbsp;Twitter</p>
+            <p><i class="fa fa-youtube-play" aria-hidden="true"></i>&nbsp;&nbsp;YouTube</p>
+        </div>
+    </div>
+        
+        </section> -->
+
+</body>
+</html>

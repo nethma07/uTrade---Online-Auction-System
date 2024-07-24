@@ -1,0 +1,51 @@
+.body {
+	background-color: rgba(54, 177, 207, 0.5); 
+}
+
+
+.input[type="text"],  input[type="text"], input[type="file"], input[type="submit"] {
+    
+	border: none;
+	border-bottom: 1px solid #222020;
+	/* background: transparent; */
+	outline: none;
+	width: 400px;
+	height: 45px;
+	margin-bottom: 20px;
+	color: #1f1e1e;
+	font-size: 16px;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    /* background: rgb(39, 83, 124) */
+}
+
+
+.productInfo {
+	font-family: Cascadia Mono;
+	background:  rgba(108, 158, 170, 0.5);
+	width: 60%;
+	padding-left: 20px;
+	padding-right: 15px;
+	border-radius: 5px;
+	margin-left: 280px;
+}
+
+.input[type="Submit"] {
+    width: 100%;
+    margin-top: 20px;
+	color: #cdc9c9;
+	background-color: rgb(199, 163, 110);
+	font-size: 15px;
+	border: none;
+}
+
+.button:hover, input[type="Submit"]:hover {
+		background-color: rgb(214, 120, 5);
+	}
+
+
+.conta {
+    margin-top: 20px;
+    font-weight: bolder;
+
+}

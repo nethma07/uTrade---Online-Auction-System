@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    height: auto;
+    background: url(../1.png);
+    padding-bottom: 70px;
+}
+
+.container form {
+  background-color: rgba(255, 255, 255);
+  margin-top: 3%;
+  width: 700px;
+  padding: 20px;
+  border-radius: 10px;
+} 
+
+.container form .row {
+    display: flex;
+    gap: 100px;
+}
+
+.container form .row .col {
+    flex: 100px;
+}
+
+.container form .row .col .title {
+    font-size: 22px;
+    color: black;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container form .row .col .inputBox {
+    margin: 15px 0;
+}
+
+.container form .row .col .inputBox span {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 18px;
+}
+
+.container form .row .col .inputBox input {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-transform: none;
+}
+
+.container form .row .col .flex {
+    gap: 15px;
+}
+
+.container form .row .col .flex .inputBox {
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    border-radius: 10px;
+    background: #ade8f4;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+} 
+
+input[type="submit"]:hover {
+    background-color: #00B4D8;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .top-card {
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .bottom-card {
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .card-icon {
+    margin-right: 10px;
+  }
+
+  .pay-checkbox {
+    margin-left: auto;
+  }
+
+  .col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    margin: 0;
+    padding-top: 50%;
+  }
+
+  h2 {
+    padding-bottom: 5px;
+  }
+
+  p {
+    text-align: justify;
+    padding-left: 2px;
+    padding-right: 15px;
+  }
+
+  #form_input {
+    border-radius: 10px;
+  }
